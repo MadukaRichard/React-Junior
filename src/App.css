@@ -1,0 +1,258 @@
+.blue{
+  color: rgb(2, 4, 69);
+}
+.container {
+  font-size: 1rem; 
+}
+.nav-aside a{
+  color: rgb(27, 9, 145);
+  font-size: .7em;
+}
+
+.hero {
+  background-color: rgb(255, 254, 242);
+  padding: 60px 0;
+}
+
+.hero-big {
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(2, 4, 69);
+}
+.lead{
+  font-weight: 400;
+  font-size: .8em;
+}
+.hero-right img {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+}
+
+
+.hero-left button {
+  background-color: #261296;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: .7em;
+}
+.hero-2{
+ 
+}
+.hero-2-title{
+  color: rgb(2, 4, 69);
+}
+.hero-2-advert-lists-image{
+  width: 100%;
+   max-width: 320px;
+   filter: saturate(0%);
+}
+.hero-2-advert-lists-descriptions a{
+  border-bottom:2px solid rgb(2, 4, 69);
+}
+
+.footer-section {
+  border-top: 1px solid #eee;
+  color: #333;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-links a:hover {
+  text-decoration: underline !important;
+}
+
+.social-icons i {
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.social-icons i:hover {
+  opacity: 0.7;
+}
+.smaller{
+  font-size: .8em !important;
+}
+.small {
+  font-size: 0.6em !important;
+  line-height: 1.6;
+}
+.smallest{
+  font-size: 0.5em;
+}
+.news{
+  background-color: rgb(243, 240, 255);
+}
+.news-card {
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.news-card:hover {
+  transform: translateY(-10px);
+}
+
+.news-img {
+  height: 200px;
+  object-fit: cover; 
+}
+
+.small-title {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.small-desc {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+
+.btn-primary {
+  background-color: rgb(2, 4, 69) !important;
+  border: none !important;
+}
+.blue {
+  color: rgb(2, 4, 69);
+}
+
+
+.course-card {
+  border-radius: 30px !important; 
+  border: 2px solid #000 !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.course-1 { background-color: #d1ecf1; } 
+.course-2 { background-color: #f1f8ce; } 
+.course-3 { background-color: #e2d7bf; } 
+.course-4 { background-color: #e1d3e8; } 
+
+.shadow-blue { box-shadow: 0 10px 30px rgba(173, 216, 230, 0.5); }
+.shadow-yellow { box-shadow: 0 10px 30px rgba(241, 248, 206, 0.8); }
+.shadow-tan { box-shadow: 0 10px 30px rgba(226, 215, 191, 0.6); }
+.shadow-purple { box-shadow: 0 10px 30px rgba(225, 211, 232, 0.7); }
+
+.small-text {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.course-card h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.course-card.course-1:hover { box-shadow: 0 15px 45px rgba(173, 216, 230, 0.8); }
+.course-card.course-2:hover { box-shadow: 0 15px 45px rgba(241, 248, 206, 1); }
+
+
+.img-container img {
+  width: 100%;
+  max-width:500px;
+  height: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.course-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15) !important;
+}
+.course-1{
+  background-color: rgb(208, 236, 245);
+  border-radius: 15px;
+  
+}
+.course-2{
+  background-color: rgb(237, 242, 184);
+  border-radius: 15px;
+  
+}
+
+.course-3{
+  background-color: rgb(227, 215, 191);
+  border-radius: 15px;
+}
+.course-4{
+  background-color: rgb(225, 211, 232);
+  border-radius: 15px;
+}
+
+
+.course-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
+
+.ready-section {
+  background-color: rgb(2, 4, 69); 
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+
+.btn-join {
+  background-color: #261296; 
+  border: none;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 70px; 
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 10; 
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  .hero-big {
+    font-size: 2em;
+    font-weight: 400;
+    color: rgb(2, 4, 69);
+  }
+  .lead{
+    font-weight: 200;
+    font-size: .6em;
+  }
+}
+@media (min-width: 768px) {
+  .row.g-5 > div:nth-child(even) {
+      margin-top: 100px;
+  }
+  
+  .row.g-5 > div:nth-child(3) {
+      margin-top: -50px;
+  }
+}
+@media (max-width: 767px) {
+  .img-container img {
+      height: 200px;
+  }
+}
